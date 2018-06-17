@@ -1,0 +1,23 @@
+#msg-display {
+   color: crimson;
+}
+
+body {
+   background: black;
+}
+
+.img-class {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+}
+
+.dark-text {
+   color: black;
+}
+
+.my-heading {
+   outline-color: black;
+   text-shadow: 2px 2px #333333;
+}

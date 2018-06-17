@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hangman</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/javascript/game.js"></script>
+</head>
+
+<body onload="setupGame()">
+  <div class="card text-white bg-info" style="max-width">
+    <div class="card-header my-heading">Cognitive Science Hangman</div>
+    <div class="card-body">
+      <p class="card-title">Press any key to get started! All of these words are either terms related to Cognitive Science or groundbreaking cognitive scientists.</p>
+      <p class="card-text">Word(s):</p>
+      <p class="card-text dark-text" id="word-display"></p>
+      <p class="card-text" id="msg-display">&nbsp;</p>
+      <p class="card-text">Guessed Letters:
+        <span id="guessed-display" class="dark-text"></span>
+      </p>
+      <p class="card-text">Guesses Left:
+        <span id="guesses-counter" class="dark-text"></span>
+      </p>
+      <p class="card-text"><span>Wins:&nbsp;</span><span class="dark-text" id="wins-display"></span><span>&nbsp;&nbsp;Losses:&nbsp;</span><span class="dark-text" id="losses-display"></span></p>
+    </div>
+  </div>
+
+  <img src="assets/images/heads.png" class="img-class" alt="connected heads">
+
+
+</body>
+
+</html>
